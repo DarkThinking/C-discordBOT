@@ -19,6 +19,10 @@ const random_frase = [
 const sube_baja = [
 'La sube',
 'La baja',
+'La re sube',
+'La re baja',
+'La sube una locura',
+'La baja una locura',
 ]
 
 client.on("message", async msg => {
