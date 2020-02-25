@@ -1,5 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const express = require('express');
+const PORT = process.env.PORT || 5000
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.send('debug'))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
 client.on("ready", () => {
   client.user.setActivity("Thaigo");
