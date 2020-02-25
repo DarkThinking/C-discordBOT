@@ -16,6 +16,11 @@ const random_frase = [
 "Poneme los palmeras",
 ]
 
+const sube_baja = [
+'La sube',
+'La baja',
+]
+
 client.on("message", async msg => {
   if (msg.content == prefix + "cmds")
   {
@@ -23,6 +28,7 @@ client.on("message", async msg => {
      msg.channel.send("t-hola >> Te saludo.");
      msg.channel.send("t-marselo >> Marselo.");
      msg.channel.send("t-frase >> Te tiro un par de frases.");
+     msg.channel.send("t-subeobaja >> La sube o la baja.");
   }
   
   if(msg.content == prefix + "hola")
@@ -38,6 +44,11 @@ client.on("message", async msg => {
   if(msg.content == prefix + "frase")
   {
     msg.channel.send(""+random_frase[Math.floor(Math.random() * random_frase.length)]+"");
+  }
+  
+  if(msg.content == prefix + "subeobaja")
+  {
+    msg.channel.send(""+sube_baja[Math.floor(Math.random() * sube_baja.length)]+"");
   }
 });
 
