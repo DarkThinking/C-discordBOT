@@ -24,7 +24,7 @@ const sube_baja = [
 client.on("message", async msg => {
   if (msg.content == prefix + "cmds")
   {
-     msg.channel.send("*Lista de comandos*");
+     msg.channel.send("**Lista de comandos**");
      msg.channel.send("t-hola >> Te saludo.");
      msg.channel.send("t-marselo >> Marselo.");
      msg.channel.send("t-frase >> Te tiro un par de frases.");
@@ -38,7 +38,7 @@ client.on("message", async msg => {
   
   if(msg.content == prefix + "marselo")
   {
-    msg.channel.send("¡Te mando un marselo!", { files: [ "https://i.imgur.com/AwbkfyQ.jpg" ] });
+    msg.channel.send("**¡Te mando un marselo!**", { files: [ "https://i.imgur.com/AwbkfyQ.jpg" ] });
   }
   
   if(msg.content == prefix + "frase")
