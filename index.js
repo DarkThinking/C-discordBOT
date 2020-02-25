@@ -14,6 +14,7 @@ const random_frase = [
 'Larry anabolico',
 "Mañana a la mañana",
 "Poneme los palmeras",
+"Ponete un chamame",
 ]
 
 const sube_baja = [
