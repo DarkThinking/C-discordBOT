@@ -8,19 +8,16 @@ client.on("ready", () => {
 
 const prefix = "t-";
 
-const respuestas = ["Frase 1", "Frase 2", "Frase 3"];
-const rta = () => responses[Math.floor(Math.random() * responses.length)]
-
 client.on("message", async msg => {
   if (msg.content == prefix + "cmds")
   {
-     msg.channel.send("t-hola >> Te saluda Thaigo.");
-     msg.channel.send("t-fase >> Frase al azar.");
+     msg.channel.send("t-hola >> Te saludo.");
+     msg.channel.send("t-marselo >> Marselo.");
   }
   
-  if(msg.content == prefix + "frase")
+  if(msg.content == prefix + "hola")
   {
-    msg.channel.send(rta());
+    msg.channel.send("¡Hola <@id>!");
   }
 });
 
