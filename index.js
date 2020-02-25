@@ -12,6 +12,8 @@ const random_frase = [
 'Que bien que juego al counter',
 'La facha que tengo',
 'Larry anabolico',
+"Mañana a la mañana",
+"Poneme los palmeras",
 ]
 
 client.on("message", async msg => {
