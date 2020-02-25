@@ -4,6 +4,6 @@
   },
   "dependencies": {
     "discord.js": "11.5.1",
-    "express.js": "4.x"
+    "express": "4.x"
   }
 }
