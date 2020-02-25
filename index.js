@@ -19,9 +19,9 @@ const random_frase = [
 client.on("message", async msg => {
   if (msg.content == prefix + "cmds")
   {
-     msg.channel.send("```[t-hola >> Te saludo.]```");
-     msg.channel.send("```[t-marselo >> Marselo.]```");
-     msg.channel.send("```[t-frase >> Te tiro un par de frases.]```");
+     msg.channel.send("```ini [t-hola >> Te saludo.]```");
+     msg.channel.send("```ini [t-marselo >> Marselo.]```");
+     msg.channel.send("```ini [t-frase >> Te tiro un par de frases.]```");
   }
   
   if(msg.content == prefix + "hola")
