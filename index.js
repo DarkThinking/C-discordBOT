@@ -32,7 +32,7 @@ client.on("message", async msg => {
   {
      msg.channel.send("**Lista de comandos**");
      msg.channel.send("t-hola >> Te saludo.");
-     msg.channel.send("t-marselo >> Marselo.");
+     msg.channel.send("t-marselo >> Te mando un Marselo.");
      msg.channel.send("t-frase >> Te tiro un par de frases.");
      msg.channel.send("t-subeobaja >> La sube o la baja.");
   }
