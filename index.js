@@ -17,7 +17,12 @@ client.on("message", async msg => {
   
   if(msg.content == prefix + "hola")
   {
-    msg.channel.send("¡Hola <@id>!");
+    msg.channel.send("¡Hola "+msg.guild.member(msg.author).displayName+"! ¿Cómo estás?");
+  }
+  
+  if(msg.content == prefix + "marselo")
+  {
+    msg.channel.send("img.", { files: [ "https://i.imgur.com/AwbkfyQ.jpg" ] });
   }
 });
 
