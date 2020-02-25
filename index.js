@@ -34,7 +34,7 @@ client.on("message", async msg => {
   
   if(msg.content == prefix + "frase")
   {
-    msg.channel.send("+random_frase[Math.floor(Math.random() * random_frase.length)]+");
+    msg.channel.send(""+random_frase[Math.floor(Math.random() * random_frase.length)]+"");
   }
 });
 
