@@ -17,7 +17,7 @@ client.on("message", async msg => {
   
   if(msg.content == prefix + "hola")
   {
-    msg.channel.send("¡Hola "+msg.author+"! ¿Cómo estás?");
+    msg.channel.send("¡Hola "+ "<@" +msg.guild.member(msg.author).user.id +">" +"! ¿Cómo estás?");
   }
   
   if(msg.content == prefix + "marselo")
