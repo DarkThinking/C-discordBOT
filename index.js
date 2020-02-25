@@ -43,7 +43,7 @@ client.on("message", async msg => {
   
   if(msg.content == prefix + "marselo")
   {
-    msg.channel.send("**¡Te mando un marselo!**", { files: [ "https://i.imgur.com/AwbkfyQ.jpg" ] });
+    msg.channel.send("**¡Te mando un Marselo!**", { files: [ "https://i.imgur.com/AwbkfyQ.jpg" ] });
   }
   
   if(msg.content == prefix + "frase")
