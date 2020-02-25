@@ -23,6 +23,8 @@ const random_frase = [
 "Mañana a la mañana",
 "Poneme los palmeras",
 "Ponete un chamame",
+"Esta para un batido de proteina",
+"La puse",
 ]
 
 const sube_baja = [
