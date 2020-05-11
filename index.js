@@ -25,6 +25,7 @@ const random_frase = [
 "Ponete un chamame",
 "Esta para un batido de proteina",
 "La puse",
+"Sale laberisso",
 ]
 
 const sube_baja = [
