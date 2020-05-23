@@ -24,7 +24,6 @@ const random_frase = [
 "Poneme los palmeras",
 "Ponete un chamame",
 "Esta para un batido de proteina",
-"La puse",
 "Sale laberisso",
 ]
 
